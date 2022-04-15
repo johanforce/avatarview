@@ -10,5 +10,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val avatarView = this.findViewById<ViewAvatar>(R.id.avatar)
         avatarView.setDataAvatar(false, "L D", "")
+
     }
 }
