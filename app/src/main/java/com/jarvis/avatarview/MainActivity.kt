@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val avatarView = this.findViewById<ViewAvatar>(R.id.avatar)
-        avatarView.setDataAvatar(false, "L D", "")
+        avatarView.setDataAvatar(false, "L V D", "")
 
     }
 }
