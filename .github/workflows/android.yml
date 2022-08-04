@@ -30,10 +30,10 @@ jobs:
       - name: Distribute App
         run: |
             curl \
-             -H "Authorization: token ${{secrets.DEPLOYGATE_API_KEY}}" \
+             -H "Authorization: token ${{secrets.DEPLOYGATE_KEY_API}}" \
              -F "file=@app/build/outputs/apk/debug/app-debug.apk" \
              -F "message=Any message" \
-             -F "distribution_key=${{secrets.DEPLOYGATE_DISTRIBUTION_KEY}}" \
+             -F "distribution_key=${{secrets.DEPLOYGATE_KEY_DISTRIBUTIONS}}" \
              -F "release_note=Release Note" \
              "https://deploygate.com/api/users/johanforce/apps"
 
