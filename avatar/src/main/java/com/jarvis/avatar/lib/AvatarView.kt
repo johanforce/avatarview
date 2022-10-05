@@ -1,4 +1,4 @@
-package com.well.avatar.lib
+package com.jarvis.avatar.lib
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -7,7 +7,7 @@ import android.util.AttributeSet
 import android.util.DisplayMetrics
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.core.content.ContextCompat
-import com.well.avatar.R
+import com.jarvis.avatar.R
 import java.util.*
 import kotlin.math.abs
 import kotlin.properties.Delegates

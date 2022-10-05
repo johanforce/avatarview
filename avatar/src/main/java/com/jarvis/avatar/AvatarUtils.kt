@@ -1,4 +1,4 @@
-package com.well.avatar
+package com.jarvis.avatar
 
 import android.text.TextUtils
 import java.lang.Exception

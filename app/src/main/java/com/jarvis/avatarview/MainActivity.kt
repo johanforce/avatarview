@@ -3,7 +3,7 @@ package com.jarvis.avatarview
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.well.avatar.ViewAvatar
+import com.jarvis.avatar.ViewAvatar
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

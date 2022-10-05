@@ -1,4 +1,4 @@
-package com.well.avatar
+package com.jarvis.avatar
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -10,14 +10,10 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.bumptech.glide.Glide
-import com.bumptech.glide.load.DataSource
-import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.load.resource.bitmap.CircleCrop
-import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.CustomTarget
-import com.bumptech.glide.request.target.Target
 import com.bumptech.glide.request.transition.Transition
-import com.well.avatar.databinding.ViewAvatarBinding
+import com.jarvis.avatar.databinding.ViewAvatarBinding
 import java.lang.Exception
 import java.util.*
 import java.util.regex.Pattern

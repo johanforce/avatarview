@@ -1,4 +1,4 @@
-package com.well.avatar.lib
+package com.jarvis.avatar.lib
 
 import android.graphics.*
 import android.graphics.drawable.Drawable
